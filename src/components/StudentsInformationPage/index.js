@@ -65,9 +65,9 @@ const studentsDetails = [
   },
   {
     id: 6,
-    name: "Diya Patel",
+    name: "Lakshmi Gugulothu",
     age: 20,
-    email: "diya.patel@example.com",
+    email: "lakshmi.gugulothu@example.com",
     phone: "+91-9823456789",
     department: "Civil",
     course: "B.Tech",
@@ -198,7 +198,7 @@ const studentsDetails = [
 ];
 
 class StudentsInformationPage extends Component {
-  state = { searchName: ""};
+  state = { searchName: "" };
 
   onChangeSearch = (event) => {
     this.setState({ searchName: event.target.value });
@@ -206,10 +206,10 @@ class StudentsInformationPage extends Component {
 
   filterStudent = () => {
     const { searchName } = this.state;
-    const filterStudent = studentsDetails.filter(
-      (eachStudent) => eachStudent.name.toLowerCase().includes(searchName)
+    const filterStudent = studentsDetails.filter((eachStudent) =>
+      eachStudent.name.toLowerCase().includes(searchName)
     );
-    return filterStudent
+    return filterStudent;
   };
 
   render() {
