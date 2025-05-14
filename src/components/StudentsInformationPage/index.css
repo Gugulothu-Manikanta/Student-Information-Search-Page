@@ -32,3 +32,86 @@
   pointer-events: none; /* ensures clicks go to input */
 }
 
+/* Container */
+.no-results-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  padding: 20px;
+}
+
+/* Card */
+.no-results-card {
+  background: #2e2e3f;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.4);
+  animation: bounceIn 0.8s ease-out;
+  max-width: 500px;
+}
+
+/* Main Title */
+.no-results-title {
+  font-size: 48px;
+  color: #ff4d4d;
+  margin-bottom: 10px;
+  animation: glow 2s infinite alternate;
+}
+
+/* Message */
+.no-results-message {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #f0f0f0;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Tip */
+.search-tip {
+  font-size: 14px;
+  color: #aaa;
+  animation: fadeInUp 1.4s ease-in-out;
+}
+
+/* Keyframe: Bounce in */
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Keyframe: Glow effect */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff4d4d;
+  }
+  to {
+    text-shadow: 0 0 20px #ff1a1a, 0 0 30px #ff1a1a;
+  }
+}
+
+/* Keyframe: Fade in + slide up */
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+

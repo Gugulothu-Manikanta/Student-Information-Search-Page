@@ -2,7 +2,7 @@ import { Component } from "react";
 import StudentsCard from "../StudentsCard";
 import "./index.css";
 
-const studentsDetails = [ 
+const studentsDetails = [
   {
     id: 1,
     name: "Aarav Kumar",
@@ -13,7 +13,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "3rd Year",
     gpa: 8.7,
-    profilePic: "https://randomuser.me/api/portraits/men/10.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/10.jpg",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "4th Year",
     gpa: 9.2,
-    profilePic: "https://randomuser.me/api/portraits/women/21.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/21.jpg",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "4th Year",
     gpa: 8.5,
-    profilePic: "https://randomuser.me/api/portraits/men/32.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "2nd Year",
     gpa: 9.0,
-    profilePic: "https://randomuser.me/api/portraits/women/44.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "3rd Year",
     gpa: 8.8,
-    profilePic: "https://randomuser.me/api/portraits/men/55.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/55.jpg",
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "2nd Year",
     gpa: 9.1,
-    profilePic: "https://randomuser.me/api/portraits/women/65.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/65.jpg",
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "4th Year",
     gpa: 8.4,
-    profilePic: "https://randomuser.me/api/portraits/men/75.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/75.jpg",
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "3rd Year",
     gpa: 9.5,
-    profilePic: "https://randomuser.me/api/portraits/women/15.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/15.jpg",
   },
   {
     id: 9,
@@ -109,7 +109,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "4th Year",
     gpa: 8.6,
-    profilePic: "https://randomuser.me/api/portraits/men/41.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/41.jpg",
   },
   {
     id: 10,
@@ -121,7 +121,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "2nd Year",
     gpa: 9.3,
-    profilePic: "https://randomuser.me/api/portraits/women/12.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/12.jpg",
   },
   {
     id: 11,
@@ -133,7 +133,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "3rd Year",
     gpa: 8.9,
-    profilePic: "https://randomuser.me/api/portraits/men/8.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/8.jpg",
   },
   {
     id: 12,
@@ -145,7 +145,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "3rd Year",
     gpa: 8.2,
-    profilePic: "https://randomuser.me/api/portraits/women/26.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/26.jpg",
   },
   {
     id: 13,
@@ -157,7 +157,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "4th Year",
     gpa: 7.9,
-    profilePic: "https://randomuser.me/api/portraits/men/19.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/19.jpg",
   },
   {
     id: 14,
@@ -169,7 +169,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "2nd Year",
     gpa: 9.4,
-    profilePic: "https://randomuser.me/api/portraits/women/39.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/39.jpg",
   },
   {
     id: 15,
@@ -181,7 +181,7 @@ const studentsDetails = [
     course: "B.Tech",
     year: "3rd Year",
     gpa: 8.3,
-    profilePic: "https://randomuser.me/api/portraits/men/22.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/22.jpg",
   },
   {
     id: 16,
@@ -193,7 +193,7 @@ const studentsDetails = [
     course: "M.Tech",
     year: "1st Year",
     gpa: 9.5,
-    profilePic: "https://randomuser.me/api/portraits/women/55.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/55.jpg",
   },
   {
     id: 17,
@@ -205,7 +205,7 @@ const studentsDetails = [
     course: "Diploma",
     year: "1st Year",
     gpa: 8.0,
-    profilePic: "https://randomuser.me/api/portraits/men/11.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/11.jpg",
   },
   {
     id: 18,
@@ -217,7 +217,7 @@ const studentsDetails = [
     course: "M.Tech",
     year: "2nd Year",
     gpa: 9.3,
-    profilePic: "https://randomuser.me/api/portraits/women/11.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/11.jpg",
   },
   {
     id: 19,
@@ -229,7 +229,7 @@ const studentsDetails = [
     course: "MCA",
     year: "2nd Year",
     gpa: 8.6,
-    profilePic: "https://randomuser.me/api/portraits/men/3.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/3.jpg",
   },
   {
     id: 20,
@@ -241,7 +241,7 @@ const studentsDetails = [
     course: "B.Sc",
     year: "3rd Year",
     gpa: 9.0,
-    profilePic: "https://randomuser.me/api/portraits/women/34.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/34.jpg",
   },
   {
     id: 21,
@@ -253,7 +253,7 @@ const studentsDetails = [
     course: "Diploma",
     year: "2nd Year",
     gpa: 8.4,
-    profilePic: "https://randomuser.me/api/portraits/men/45.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     id: 22,
@@ -265,7 +265,7 @@ const studentsDetails = [
     course: "M.Tech",
     year: "2nd Year",
     gpa: 8.9,
-    profilePic: "https://randomuser.me/api/portraits/women/28.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/28.jpg",
   },
   {
     id: 23,
@@ -277,7 +277,7 @@ const studentsDetails = [
     course: "BCA",
     year: "2nd Year",
     gpa: 8.3,
-    profilePic: "https://randomuser.me/api/portraits/men/24.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/24.jpg",
   },
   {
     id: 24,
@@ -289,7 +289,7 @@ const studentsDetails = [
     course: "B.Sc",
     year: "2nd Year",
     gpa: 9.1,
-    profilePic: "https://randomuser.me/api/portraits/women/47.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/47.jpg",
   },
   {
     id: 25,
@@ -301,7 +301,7 @@ const studentsDetails = [
     course: "M.Tech",
     year: "2nd Year",
     gpa: 8.7,
-    profilePic: "https://randomuser.me/api/portraits/men/77.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/77.jpg",
   },
   {
     id: 26,
@@ -313,7 +313,7 @@ const studentsDetails = [
     course: "MCA",
     year: "1st Year",
     gpa: 9.2,
-    profilePic: "https://randomuser.me/api/portraits/women/19.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/19.jpg",
   },
   {
     id: 27,
@@ -325,7 +325,7 @@ const studentsDetails = [
     course: "Diploma",
     year: "1st Year",
     gpa: 7.8,
-    profilePic: "https://randomuser.me/api/portraits/men/12.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/12.jpg",
   },
   {
     id: 28,
@@ -337,7 +337,7 @@ const studentsDetails = [
     course: "M.Sc",
     year: "2nd Year",
     gpa: 8.5,
-    profilePic: "https://randomuser.me/api/portraits/women/32.jpg"
+    profilePic: "https://randomuser.me/api/portraits/women/32.jpg",
   },
   {
     id: 29,
@@ -349,7 +349,7 @@ const studentsDetails = [
     course: "M.Sc",
     year: "1st Year",
     gpa: 9.0,
-    profilePic: "https://randomuser.me/api/portraits/men/36.jpg"
+    profilePic: "https://randomuser.me/api/portraits/men/36.jpg",
   },
   {
     id: 30,
@@ -361,10 +361,9 @@ const studentsDetails = [
     course: "B.Sc",
     year: "1st Year",
     gpa: 8.6,
-    profilePic: "https://randomuser.me/api/portraits/women/50.jpg"
-  }
+    profilePic: "https://randomuser.me/api/portraits/women/50.jpg",
+  },
 ];
-
 
 class StudentsInformationPage extends Component {
   state = { searchName: "" };
@@ -383,6 +382,7 @@ class StudentsInformationPage extends Component {
 
   render() {
     const getFilteredStudent = this.filterStudent();
+    const isNoresultFound = getFilteredStudent.length === 0 ? true : false;
     return (
       <>
         <div className="search-wrapper">
@@ -398,14 +398,28 @@ class StudentsInformationPage extends Component {
             className="search-icon"
           />
         </div>
-        <ul className="list-of-students-container">
-          {getFilteredStudent.map((eachStudentDetails) => (
-            <StudentsCard
-              key={eachStudentDetails.id}
-              studentDetails={eachStudentDetails}
-            />
-          ))}
-        </ul>
+        {!isNoresultFound ? (
+          <ul className="list-of-students-container">
+            {getFilteredStudent.map((eachStudentDetails) => (
+              <StudentsCard
+                key={eachStudentDetails.id}
+                studentDetails={eachStudentDetails}
+              />
+            ))}
+          </ul>
+        ) : (
+          <div className="no-results-container">
+            <div className="no-results-card">
+              <h1 className="no-results-title">😕 Oops!</h1>
+              <p className="no-results-message">
+                No results found with that name.
+              </p>
+              <span className="search-tip">
+                Try checking the spelling or using a different keyword.
+              </span>
+            </div>
+          </div>
+        )}
       </>
     );
   }
