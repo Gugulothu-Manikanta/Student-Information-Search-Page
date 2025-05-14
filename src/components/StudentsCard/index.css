@@ -1,0 +1,77 @@
+.student-profile-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  min-width: 40%;
+  margin: 10px;
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.student-profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile-image-and-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: 2px solid #4a90e2;
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+.student-name {
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.student-contact-info-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0;
+  margin: 10px 0;
+  color: #444;
+}
+
+.student-contact-info-container p {
+  margin: 4px 0;
+}
+
+p {
+  margin: 6px 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+  .student-profile-card {
+    width: 80%;
+  }
+
+  .student-name {
+    font-size: 20px;
+  }
+
+  .profile-image {
+    height: 50px;
+    width: 50px;
+  }
+}
